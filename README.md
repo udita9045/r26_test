@@ -1,7 +1,7 @@
 # R26_test
 
 <p align="center">
-  <img src="https://github.com/teamrudra/r26-test/blob/main/misc/rover.webp" width="480" height="480"/>
+  <img src="https://github.com/teamrudra/r26_test/blob/main/misc/feynman-simple.jpg" width="480" height="480"/>
 
 #### Some Instructions
 1. You may use any online resources, datasheets, or documentation needed, but be mindful of your time and stay focused on the task.
