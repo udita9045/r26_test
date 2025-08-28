@@ -50,6 +50,10 @@ int main(int argc, char *argv[]) {
   pair<int, int> start = grid.gpstogrid(result.first);
   pair<int, int> goal = grid.gpstogrid(result.second);
 
+ if (argc < 3) {
+    cerr << "Usage: " << argv[0] << " <gps_data_file> <odom_output_file>" << endl;
+    return 1;
+}
   cout << "Start (grid) -> (" << start.first << "," << start.second << ")"
        << endl;
   cout << "Goal  (grid) -> (" << goal.first << "," << goal.second << ")"
